@@ -1,7 +1,7 @@
 # Kill-Camels
 A 2d platformer game made in one week for a Game Jam.
 
-The theme was "Magic and spells"
+The theme was "Magic and spells".
 
 ## Some screenshots
 ![Thumbnail](screenshots/thumbnail.jpg "Kill Camels")
