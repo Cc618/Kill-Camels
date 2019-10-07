@@ -5,10 +5,10 @@ The theme was "Magic and spells"
 
 ## Some screenshots
 ![Thumbnail](screenshots/thumbnail.jpg "Kill Camels")
-![Power Ups]("screenshots/Kill Camels 05_10_2019 15_18_44.png" "Power Ups")
-![Kill a Camel]("screenshots/Kill Camels 05_10_2019 15_18_06.png" "Kill a Camel")
-![Shoot]("screenshots/Kill Camels 05_10_2019 15_23_44.png" "Shoot")
-![Boss]("screenshots/Kill Camels 05_10_2019 15_26_29.png" "The boss")
+![Power Ups](screenshots/power_ups.png "Power Ups")
+![Kill a Camel](screenshots/jump_kill.png "Kill a Camel")
+![Shoot](screenshots/shoot.png "Shoot")
+![Boss](screenshots/boss.png "The boss")
 
 ## Some features
 This is a 2D platformer made with Unity.
