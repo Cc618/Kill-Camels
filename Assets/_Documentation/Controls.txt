@@ -1,0 +1,17 @@
+		Controls use the Qwerty keyboard layout.
+
+- A / D			: Move horizontally
+- Space	/ W		: Jump
+- Up			: Magic spell
+- Left / Right	: Change spell
+- F				: Toggle fullscreen
+- R				: Reload Level
+- N				: Next level
+- K				: Kill
+- M				: Go to menu
+- Escape		: Quit
+
+	Dev cheats (with lshift):
+- R : Set pos to origin
+- X : Stop velocity
+- Space : Big jump

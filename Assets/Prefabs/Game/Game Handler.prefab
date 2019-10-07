@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &776879890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 776879891}
+  - component: {fileID: 776879892}
+  m_Layer: 0
+  m_Name: End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &776879891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776879890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 64, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8193220915861731231}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &776879892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776879890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c7398f7f1420fb4fa60428d434bd114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextLevel: Tests
+--- !u!1 &8193220915861731229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8193220915861731231}
+  - component: {fileID: 8193220915861731228}
+  m_Layer: 0
+  m_Name: Game Handler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8193220915861731231
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8193220915861731229}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 776879891}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8193220915861731228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8193220915861731229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dbbb45686afcb94fb779788212651b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: death
+    clip: {fileID: 8300000, guid: 1587e9828c493c447aaed300834e94ea, type: 3}
+    source: {fileID: 0}
+  - name: camel_hit
+    clip: {fileID: 8300000, guid: f3ca06de1cab3bc46aa7bb2e91ee2983, type: 3}
+    source: {fileID: 0}
+  - name: camel_death
+    clip: {fileID: 8300000, guid: 713285afd3bb12c43a3a21d2a76baf02, type: 3}
+    source: {fileID: 0}
+  - name: bomb
+    clip: {fileID: 8300000, guid: caad92d7189c89c46888af09dc509afc, type: 3}
+    source: {fileID: 0}
+  - name: flap
+    clip: {fileID: 8300000, guid: 73646b8a54bf56049823f914a94af6c9, type: 3}
+    source: {fileID: 0}
+  - name: hump_close
+    clip: {fileID: 8300000, guid: e5974d5465e9356489b4e80c2a0dc989, type: 3}
+    source: {fileID: 0}
+  - name: hump_open
+    clip: {fileID: 8300000, guid: dc7fcfda0a85cca4d97207e8c659483c, type: 3}
+    source: {fileID: 0}
+  - name: laser
+    clip: {fileID: 8300000, guid: 65077e3c943d5de49ad56d8d30c9d176, type: 3}
+    source: {fileID: 0}
+  - name: long_jump
+    clip: {fileID: 8300000, guid: 4c2c9f1ff23c089449e56184060a8867, type: 3}
+    source: {fileID: 0}
+  - name: small_jump
+    clip: {fileID: 8300000, guid: 31b96521d58f7ab49ababf37a86f3376, type: 3}
+    source: {fileID: 0}
+  - name: tp
+    clip: {fileID: 8300000, guid: b97048799dd4247428db268cfa49d279, type: 3}
+    source: {fileID: 0}
+  - name: wings
+    clip: {fileID: 8300000, guid: 3ce6568f5c9487a4aba15ef29a2420a6, type: 3}
+    source: {fileID: 0}
+  - name: boss_flap
+    clip: {fileID: 8300000, guid: b9b66c3b4ce114742b458d0d429d9a83, type: 3}
+    source: {fileID: 0}
